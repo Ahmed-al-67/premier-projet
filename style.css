@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: white;
+}
+
+.box-blue {
+  margin: 7rem;
+  margin-top: 4rem;
+
+  height: 90vh;
+  width: auto;
+  background: url(images/bg-pattern-top.svg) no-repeat -35rem -50rem,
+    url(images/bg-pattern-bottom.svg) no-repeat 75rem 25rem;
+  background-color: rgb(25, 162, 174);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 33rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-blue {
+  height: 16rem;
+  background: url("images/bg-pattern-card.svg") no-repeat;
+  background-size: cover;
+
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+.name {
+  background-color: #fff;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follo {
+  background-color: #fff;
+  height: 8rem;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+.number {
+  margin-bottom: 0.5rem;
+}
+
+.picture {
+  border-radius: 100%;
+  transform: translateY(-50%);
+  border: 5px solid #fff;
+}
+
+.number-1 {
+  transform: translateY(-3rem);
+  font-size: 2.5rem;
+}
+
+.city {
+  font-size: 1.6rem;
+}
+
+.number,
+.text {
+  font-size: 1.8rem;
+}
